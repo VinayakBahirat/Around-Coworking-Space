@@ -207,8 +207,18 @@ body {
     color: var(--text-off-white);
     opacity: 1;
 }
+.fixe-buttun {
+    position: fixed;
+    bottom: 15px;
+    right: 37px;
+    z-index: 3;
+}
 
 
+
+
+
+/*big screen*/
 @media screen and (min-width:999px) {
     
     .iframe-close-button {
@@ -270,5 +280,11 @@ body {
     }
     .border-right {
         border-right: 1px solid rgba(80, 80, 80, 0.4);
+    }
+    .fixe-buttun {
+        position: fixed;
+        bottom: 15px;
+        right: 18px;
+        z-index: 3;
     }
 }
