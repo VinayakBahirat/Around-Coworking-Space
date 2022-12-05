@@ -268,4 +268,7 @@ body {
         width: 500px;
         height: auto;
     }
+    .border-right {
+        border-right: 1px solid rgba(80, 80, 80, 0.4);
+    }
 }
